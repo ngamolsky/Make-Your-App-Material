@@ -82,6 +82,7 @@ public class ArticleDetailActivity extends AppCompatActivity
         mToolbar = (Toolbar) findViewById(R.id.up_container);
         setSupportActionBar(mToolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setDisplayShowTitleEnabled(false);
         //mUpButtonContainer = findViewById(R.id.up_container);
 
         //mUpButton = findViewById(R.id.action_up);
