@@ -12,9 +12,10 @@
 
     <android.support.v7.widget.Toolbar
         android:id="@+id/up_container"
-        android:background="@android:color/transparent"
+        android:background="?colorPrimary"
         android:layout_width="match_parent"
         android:layout_height="?actionBarSize"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
         app:elevation="4dp">
 
 
